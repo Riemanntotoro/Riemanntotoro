@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3776AB,100:00599C&height=230&section=header&text=Sanghyeop%20Lee&fontColor=ffffff&fontSize=60&fontAlignY=35&desc=Algorithm%20%7C%20Problem%20Solving&descSize=20&descAlignY=55&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Sanghyeop%20Lee&fontColor=ffffff&fontSize=60&fontAlignY=35&desc=NPU%20Robot%20Engineer&descSize=20&descAlignY=55&animation=fadeIn" width="100%"/>
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3776AB&center=true&vCenter=true&random=false&width=435&lines=SSAFY+%40+Seoul;Algorithm+Problem+Solver;Python+%7C+C%2B%2B+%7C+C" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2c5364&center=true&vCenter=true&random=false&width=520&lines=Embedded+Systems+%7C+Edge+AI;Bare-metal+%E2%86%92+RTOS+%E2%86%92+Linux;From+silicon+to+signal+processing" alt="Typing SVG" />
 </a>
 
 </div>
@@ -15,8 +15,9 @@
 ## About Me
 
 ```
-SSAFY (삼성 청년 SW 아카데미) @ Seoul
-알고리즘 문제 풀이를 꾸준히 하고 있습니다.
+NPU Robot Engineer @ Semiconductor / Robotics
+Embedded firmware부터 Edge AI 추론 최적화까지,
+하드웨어에 가까운 소프트웨어를 만듭니다.
 ```
 
 <br>
@@ -25,23 +26,90 @@ SSAFY (삼성 청년 SW 아카데미) @ Seoul
 
 <div align="center">
 
+### Languages
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+### Embedded & Hardware
+![ARM](https://img.shields.io/badge/ARM_Cortex--A9-0091BD?style=for-the-badge&logo=arm&logoColor=white)
+![Xilinx](https://img.shields.io/badge/Xilinx_Zynq-E01F27?style=for-the-badge&logo=xilinx&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-6DB33F?style=for-the-badge&logo=freertos&logoColor=white)
+![Linux](https://img.shields.io/badge/Embedded_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### ML / Signal Processing
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+
+### Tools & Build Systems
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![GNU](https://img.shields.io/badge/Autotools-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
 
 </div>
 
 <br>
 
-## Repositories
+## Domains
 
-| Repo | Description | Language |
-|:----:|:-----------:|:--------:|
-| [**Python_algorithm**](https://github.com/Riemanntotoro/Python_algorithm) | 알고리즘 문제 풀이 (Python) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| [**codetree-TILs**](https://github.com/Riemanntotoro/codetree-TILs) | 코드트리 문제 풀이 | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| [**Study_Algorithm**](https://github.com/Riemanntotoro/Study_Algorithm) | 알고리즘 스터디 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+```text
+ Embedded Firmware     ██████████████████████████  Bare-metal, FreeRTOS, Embedded Linux
+ Edge AI / NPU         ████████████████████████░░  Model quantization, On-device inference
+ Signal Processing     ██████████████████████░░░░  DSP, FFT, Real-time audio pipeline
+ USB / Protocol        ████████████████████░░░░░░  USB Mass Storage, SCSI BOT, DMA
+ ML Training           ██████████████████░░░░░░░░  TensorFlow/Keras, GRU, Custom loss
+```
+
+<br>
+
+## Projects
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### Embedded USB Storage
+**Zynq-7000 SoC Firmware**
+
+`C` `FreeRTOS` `Rust` `ARM Cortex-A9`
+
+Bare-metal → RTOS → Linux 4단계 진화
+USB Mass Storage Class (3-LUN)
+eMMC / SD / RAMDISK 관리
+
+</td>
+<td align="center" width="50%">
+
+### Speech Enhancement
+**Lightweight RNNoise for Hearing Aids**
+
+`C` `Python` `TensorFlow` `DSP`
+
+8-bit 양자화 GRU 추론 엔진
+10ms 실시간 처리 @ 48kHz
+18-band 주파수 대역 최적화
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" colspan="2">
+
+### AI Document Classifier
+**Math Problem Auto-Classifier**
+
+`Python` `C++17` `Java` `Gemini API`
+
+수능 수학 문제 자동 유형 분류 · HWPX 문서 파싱 엔진 · 비동기 병렬 파이프라인
+
+</td>
+</tr>
+</table>
+
+</div>
 
 <br>
 
@@ -69,11 +137,11 @@ SSAFY (삼성 청년 SW 아카데미) @ Seoul
 
 <div align="center">
 
-  <img src="https://komarev.com/ghpvc/?username=Riemanntotoro&color=3776AB&style=flat-square&label=PROFILE+VIEWS"/>
+  <img src="https://komarev.com/ghpvc/?username=Riemanntotoro&color=2c5364&style=flat-square&label=PROFILE+VIEWS"/>
 
   *"The art of doing mathematics consists in finding that special case which contains all the germs of generality." — David Hilbert*
 
 </div>
 
 <!-- Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3776AB,100:00599C&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=120&section=footer" width="100%"/>
