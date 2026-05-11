@@ -146,8 +146,8 @@ V4L2 DMABUF 캡처 · YOLOv11s + RetinaFace 검출 · Kalman 트래킹 · RGA �
 ## GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Riemanntotoro&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=1a1b27&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Riemanntotoro&layout=compact&theme=tokyonight&hide_border=true&langs_count=5&bg_color=1a1b27&title_color=70a5fd"/>
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Riemanntotoro&theme=tokyonight"/>
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Riemanntotoro&theme=tokyonight"/>
 </div>
 
 <div align="center">
