@@ -95,18 +95,6 @@ eMMC / SD / RAMDISK 관리
 
 </td>
 </tr>
-<tr>
-<td align="center" width="50%" colspan="2">
-
-### AI Document Classifier
-**Math Problem Auto-Classifier**
-
-`Python` `C++17` `Java` `Gemini API`
-
-수능 수학 문제 자동 유형 분류 · HWPX 문서 파싱 엔진 · 비동기 병렬 파이프라인
-
-</td>
-</tr>
 </table>
 
 </div>
