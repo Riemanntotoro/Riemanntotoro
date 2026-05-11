@@ -36,12 +36,15 @@ Embedded firmware부터 Edge AI 추론 최적화까지,
 ### Embedded & Hardware
 ![ARM](https://img.shields.io/badge/ARM_Cortex--A9-0091BD?style=for-the-badge&logo=arm&logoColor=white)
 ![Xilinx](https://img.shields.io/badge/Xilinx_Zynq-E01F27?style=for-the-badge&logo=xilinx&logoColor=white)
+![Rockchip](https://img.shields.io/badge/Rockchip_RK3576-CF272D?style=for-the-badge&logoColor=white)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-6DB33F?style=for-the-badge&logo=freertos&logoColor=white)
 ![Linux](https://img.shields.io/badge/Embedded_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ### ML / Signal Processing
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![RKNN](https://img.shields.io/badge/Rockchip_RKNN-0072B5?style=for-the-badge&logoColor=white)
 
 ### Tools & Build Systems
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -56,7 +59,7 @@ Embedded firmware부터 Edge AI 추론 최적화까지,
 
 ```text
  Embedded Firmware     ██████████████████████████  Bare-metal, FreeRTOS, Embedded Linux
- Edge AI / NPU         ████████████████████████░░  Model quantization, On-device inference
+ Edge AI / NPU         █████████████████████████░  RKNN, YOLOv11, RGA HW Pipeline
  Signal Processing     ██████████████████████░░░░  DSP, FFT, Real-time audio pipeline
  USB / Protocol        ████████████████████░░░░░░  USB Mass Storage, SCSI BOT, DMA
  ML Training           ██████████████████░░░░░░░░  TensorFlow/Keras, GRU, Custom loss
@@ -92,6 +95,18 @@ eMMC / SD / RAMDISK 관리
 8-bit 양자화 GRU 추론 엔진
 10ms 실시간 처리 @ 48kHz
 18-band 주파수 대역 최적화
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" colspan="2">
+
+### RK3576 Edge AI Vision
+**Real-time NPU Pipeline & DSMS**
+
+`C++` `RKNN` `YOLOv11` `RGA/DRM` `aarch64`
+
+V4L2 DMABUF 캡처 · YOLOv11s + RetinaFace 검출 · Kalman 트래킹 · RGA 하드웨어 블러 · DSMS 운전자 모니터링 보드 포팅
 
 </td>
 </tr>
