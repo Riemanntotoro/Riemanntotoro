@@ -121,7 +121,7 @@ eMMC / SD / RAMDISK 관리
 <tr>
 <td align="center" width="50%" colspan="2" valign="top">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:203a43,100:2c5364&height=100&text=RK3576+Edge+AI+Vision&fontColor=ffffff&fontSize=26&fontAlignY=45&desc=Real-time+NPU+Pipeline+%26+DSMS&descSize=14&descAlignY=78" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:203a43,100:2c5364&height=100&text=RK3576+Edge+AI+Vision&fontColor=ffffff&fontSize=26&fontAlignY=45&desc=Real-time+NPU+Pipeline+%2B+DSMS&descSize=14&descAlignY=78" width="100%"/>
 
 <br>
 
